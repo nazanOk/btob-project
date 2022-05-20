@@ -3,7 +3,9 @@
 Endpoints:
 
 
+
 Save Product
+
 POST /api/product HTTP/1.1
 Host: localhost:3333
 Authorization: Basic base64(username:password)
@@ -16,13 +18,19 @@ Content-Length: 42
 }
 
 
+
+
 Get Products
+
 GET /api/product HTTP/1.1
 Host: localhost:3333
 Authorization: Basic base64(username:password)
 
 
+
+
 Delete Product
+
 DELETE /api/product/{productId} HTTP/1.1
 Host: localhost:3333
 Authorization: Basic base64(username:password)
